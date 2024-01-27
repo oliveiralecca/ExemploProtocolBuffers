@@ -6,6 +6,8 @@ import com.google.protobuf.util.JsonFormat;
  * Hello world!
  *
  */
+ 
+// EMISSOR
 public class ExemploSerializacao 
 {
     public static void main( String[] args ) throws Exception

@@ -7,6 +7,8 @@ import java.util.*;
  * Hello world!
  *
  */
+ 
+// RECEPTOR
 public class ExemploDesserializacao 
 {
     public static void main( String[] args ) throws Exception
@@ -35,7 +37,9 @@ public class ExemploDesserializacao
         for (int i = 0; i<telefones.size(); i++){
             ContatoProto.Telefone fone = telefones.get(i);
             String numero = fone.getNumero();
+            ContatoProto.Tipo tipo = fone.getTipo();
             System.out.println(numero);
+            System.out.println(tipo);
         }
     }
 }
